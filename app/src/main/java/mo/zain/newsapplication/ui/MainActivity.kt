@@ -31,11 +31,11 @@ class MainActivity : AppCompatActivity() {
 
     private var layoutManager:RecyclerView.LayoutManager?=null
     private var adapter:RecyclerView.Adapter<NewsAdapter.ArticleViewHolder>?=null
-    var recyclerView:RecyclerView?=null
-    var progressBar:ProgressBar?=null
-    var searchET:EditText?=null
-    var newsModel:NewsModel?=null
-    var articles: List<Article>?=null
+    private var recyclerView:RecyclerView?=null
+    private var progressBar:ProgressBar?=null
+    private var searchET:EditText?=null
+    private var newsModel:NewsModel?=null
+    private var articles: List<Article>?=null
     private val articleListFilter: MutableList<Article> = ArrayList()
 
     override fun onCreate(savedInstanceState: Bundle?) {
